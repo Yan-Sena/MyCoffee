@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_coffee"
+        android:icon=""
+        android:title="COFFEE" />
+
+    <item
+        android:id="@+id/navigation_muffin"
+        android:icon=""
+        android:title="MUFFIN" />
+
+    <item
+        android:id="@+id/pesquisar"
+        android:icon=""
+        android:title="TEA" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon=""
+        android:title="DONUTS" />
+
+</menu>
