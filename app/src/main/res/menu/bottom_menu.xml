@@ -3,22 +3,21 @@
 
     <item
         android:id="@+id/navigation_coffee"
-        android:icon=""
+        android:icon="@drawable/coffee"
         android:title="COFFEE" />
 
     <item
         android:id="@+id/navigation_muffin"
-        android:icon=""
+        android:icon="@drawable/muffin"
         android:title="MUFFIN" />
 
     <item
-        android:id="@+id/pesquisar"
-        android:icon=""
-        android:title="TEA" />
+        android:id="@+id/navigation_tea"
+        android:icon="@drawable/tea"
+        android:title="TEA"  />
 
     <item
-        android:id="@+id/navigation_notifications"
-        android:icon=""
+        android:id="@+id/navigation_donuts"
+        android:icon="@drawable/donuts"
         android:title="DONUTS" />
-
 </menu>
