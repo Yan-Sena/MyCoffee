@@ -1,14 +1,14 @@
-package br.com.etecia.mycoffee.ui.home;
+package br.com.etecia.mycoffee.ui.coffee;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class CoffeeViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public CoffeeViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is home fragment");
     }
