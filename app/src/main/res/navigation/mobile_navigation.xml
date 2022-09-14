@@ -3,23 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_coffee">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_coffee"
         android:name="br.com.etecia.mycoffee.ui.coffee.CoffeeFragment"
-        android:label="@string/title_home"
+        android:label="Coffee"
         tools:layout="@layout/fragment_coffee" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_muffin"
         android:name="br.com.etecia.mycoffee.ui.muffin.MuffinFragment"
-        android:label="@string/title_dashboard"
+        android:label="Muffin"
         tools:layout="@layout/fragment_muffin" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="br.com.etecia.mycoffee.ui.tea.DonutsFragment"
-        android:label="@string/title_notifications"
+        android:id="@+id/navigation_tea"
+        android:name="br.com.etecia.mycoffee.ui.tea.TeaFragment"
+        android:label="Tea"
         tools:layout="@layout/fragment_tea" />
+
+    <fragment
+        android:id="@+id/navigation_donuts"
+        android:name="br.com.etecia.mycoffee.ui.donuts.DonutsFragment"
+        android:label="Donuts"
+        tools:layout="@layout/fragment_donuts" />
+
 </navigation>
