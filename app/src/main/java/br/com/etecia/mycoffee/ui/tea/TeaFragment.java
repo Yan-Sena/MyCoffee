@@ -1,4 +1,4 @@
-package br.com.etecia.mycoffee.ui.notifications;
+package br.com.etecia.mycoffee.ui.tea;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import br.com.etecia.mycoffee.databinding.FragmentNotificationsBinding;
+import br.com.etecia.mycoffee.databinding.FragmentTeaBinding;
 
-public class NotificationsFragment extends Fragment {
+public class TeaFragment extends Fragment {
 
-    private FragmentNotificationsBinding binding;
+    private FragmentTeaBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        NotificationsViewModel notificationsViewModel =
-                new ViewModelProvider(this).get(NotificationsViewModel.class);
+        br.com.etecia.mycoffee.ui.tea.DonutsViewModel donutsViewModel =
+                new ViewModelProvider(this).get(br.com.etecia.mycoffee.ui.tea.DonutsViewModel.class);
 
-        binding = FragmentNotificationsBinding.inflate(inflater, container, false);
+        binding = FragmentTeaBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textNotifications;
-        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        donutsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

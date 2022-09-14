@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="br.com.etecia.mycoffee.ui.dashboard.DashboardFragment"
+        android:name="br.com.etecia.mycoffee.ui.muffin.MuffinFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_muffin" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="br.com.etecia.mycoffee.ui.notifications.NotificationsFragment"
+        android:name="br.com.etecia.mycoffee.ui.tea.DonutsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_tea" />
 </navigation>
