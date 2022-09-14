@@ -76,12 +76,14 @@
                     android:textStyle="bold" />
 
                 <ImageView
+                    style="@style/Widget.AppCompat.RatingBar.Indicator"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="200dp"
-                    android:src="@drawable/ic_baseline_favorite" />
+                    android:src="@drawable/ic_baseline_favorite"/>
 
                 <ImageView
+                    style="@style/Widget.AppCompat.RatingBar.Indicator"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
