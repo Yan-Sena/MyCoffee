@@ -19,14 +19,10 @@ public class MuffinFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        MuffinViewModel muffinViewModel =
-                new ViewModelProvider(this).get(MuffinViewModel.class);
 
         binding = FragmentMuffinBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textDashboard;
-        muffinViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

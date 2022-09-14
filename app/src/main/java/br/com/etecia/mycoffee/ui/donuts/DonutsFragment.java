@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import br.com.etecia.mycoffee.databinding.FragmentDonutsBinding;
-import br.com.etecia.mycoffee.ui.tea.DonutsViewModel;
+
 
 public class DonutsFragment extends Fragment {
 
@@ -19,14 +19,11 @@ public class DonutsFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        DonutsViewModel donutsViewModel =
-                new ViewModelProvider(this).get(DonutsViewModel.class);
 
         binding = FragmentDonutsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifications;
-        donutsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
         return root;
     }
 

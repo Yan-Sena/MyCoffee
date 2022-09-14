@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCoffee/app/src/main/res/layout/activity_carrega_coffee.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCoffee/app/src/main/res/layout/activity_coffee_list.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCoffee/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCoffee/app/src/main/res/layout/fragment_coffee.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCoffee/app/src/main/res/layout/fragment_dashboard.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCoffee/app/src/main/res/layout/fragment_donuts.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCoffee/app/src/main/res/layout/fragment_home.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCoffee/app/src/main/res/layout/fragment_muffin.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCoffee/app/src/main/res/layout/fragment_notifications.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCoffee/app/src/main/res/layout/fragment_tea.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Laboratorio-Info/AndroidStudioProjects/MyCoffee/app/src/main/res/menu/bottom_menu.xml" value="0.36666666666666664" />

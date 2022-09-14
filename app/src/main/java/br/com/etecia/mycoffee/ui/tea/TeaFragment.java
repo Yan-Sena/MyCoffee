@@ -18,14 +18,10 @@ public class TeaFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        br.com.etecia.mycoffee.ui.tea.DonutsViewModel donutsViewModel =
-                new ViewModelProvider(this).get(br.com.etecia.mycoffee.ui.tea.DonutsViewModel.class);
 
         binding = FragmentTeaBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifications;
-        donutsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

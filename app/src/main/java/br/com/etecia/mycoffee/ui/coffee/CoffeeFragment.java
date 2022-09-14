@@ -18,14 +18,9 @@ public class CoffeeFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        CoffeeViewModel coffeeViewModel =
-                new ViewModelProvider(this).get(CoffeeViewModel.class);
 
         binding = FragmentCoffeeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
-        final TextView textView = binding.textHome;
-        coffeeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
